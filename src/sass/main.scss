@@ -1,8 +1,10 @@
 // Abstracts
+@import './abstracts/mixins';
 // Base
 @import './base/animations';
 @import './base/base';
 // Components
+@import './components/header';
 // Layouts
 @import './layouts/container';
 // Pages

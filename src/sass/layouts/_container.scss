@@ -2,7 +2,7 @@
   height: 100vh;
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 1fr;
+  grid-template-rows: 8vh 1fr;
   background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
   background-size: 400% 400%;
   animation: Gradient 10s ease infinite;

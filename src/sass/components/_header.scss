@@ -1,0 +1,67 @@
+.header {
+  grid-column: 1;
+  grid-row: 1;
+  display: grid;
+  grid-template-columns: 1fr 3fr repeat(3, 1fr);
+  color: white;
+
+  @include respond(bigDesktop) {
+    &__open {
+      display: none;
+    }
+
+    &__menu {
+      display: none;
+    }
+  }
+
+  @include respond(phone) {
+    &__open {
+      display: inline-block;
+    }
+
+    & nav {
+      display: none;
+    }
+  }
+
+  svg {
+    outline: black;
+    stroke: black;
+    height: 2.5rem;
+  }
+
+  button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+  }
+
+  h1 {
+    justify-self: center;
+    align-self: center;
+  }
+
+  &__nav {
+    grid-column: 3 / -1;
+    grid-row: 1;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    font-size: 3rem;
+    color: white;
+    justify-items: center;
+    align-items: center;
+
+    &-about {
+      grid-column: 1;
+    }
+
+    &-work {
+      grid-column: 2;
+    }
+
+    &-stuff {
+      grid-column: 3;
+    }
+  }
+}
