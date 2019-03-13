@@ -11,6 +11,7 @@
 
 <body>
   <div class="container">
+
     <header class="header">
       <h1>Something Awesome</h1>
       <nav class="header__nav nav">
@@ -36,10 +37,10 @@
       </span>
 
       <div class="header__menu" id="slide">
-        <button aria-label="Close Sliding Menu" href="#" class="nav-slide__close" id="closeSlideMenu">&times;</button>
+        <button aria-label="Close Sliding Menu" href="#" class="header__menu-close" id="closeSlideMenu">&times;</button>
         <ul>
           <li>
-            <a class="nav-slide-home nav-slide__current" href="index.html">Home</a>
+            <a class="nav-slide-home" href="index.html">Home</a>
           </li>
           <li>
             <a class="nav-slide-creations" href="creations.html">Creations</a>
@@ -51,6 +52,12 @@
       </div>
 
     </header>
+
+    <main class="hero">
+      <div class="hero--message">
+        <h1>We grow and harvest the best hops in the world. <br /> <span>Period.</span> </h1>
+      </div>
+    </main>
   </div>
   <script src="../dist/js/bundle.js"></script>
 </body>

@@ -11,3 +11,13 @@
     background-position: 0% 50%
   }
 }
+
+@keyframes slideinLeft {
+  from {
+    margin-left: -100%;
+  }
+
+  to {
+    margin-left: 0%;
+  }
+}

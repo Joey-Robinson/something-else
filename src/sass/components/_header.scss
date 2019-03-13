@@ -4,7 +4,7 @@
   display: grid;
   grid-template-columns: 1fr 3fr repeat(3, 1fr);
   color: white;
-
+  z-index: 5;
   @include respond(bigDesktop) {
     &__open {
       display: none;
@@ -20,6 +20,45 @@
       display: inline-block;
     }
 
+    &__menu {
+      height: 100%;
+      width: 0;
+      position: fixed;
+      z-index: 2;
+      opacity: 0.985;
+      top: 0;
+      left: 0;
+      background: linear-gradient(-45deg, #FCD2A8, #EC6778, #007D75, #529A86);
+      background-size: 400% 400%;
+      animation: Gradient 10s ease infinite;
+      overflow-x: hidden;
+      padding-top: 5rem;
+      transition: 0.5s;
+      display: grid;
+      grid-template-columns: 1fr;
+
+      ul {
+        grid-column: 1;
+        align-self: center;
+        justify-self: center;
+      }
+
+      &-close {
+        position: absolute;
+        right: 1rem;
+        top: 0;
+        margin-bottom: -2rem;
+        font-size: 5rem;
+        color: white;
+      }
+
+      a {
+        display: inline-block;
+        color: white;
+        font-size: 3rem;
+      }
+    }
+
     & nav {
       display: none;
     }
@@ -29,6 +68,10 @@
     outline: black;
     stroke: black;
     height: 2.5rem;
+
+    &:hover {
+      margin: 40px 0 0 0;
+    }
   }
 
   button {
@@ -40,6 +83,10 @@
   h1 {
     justify-self: center;
     align-self: center;
+
+    @include respond(phone) {
+      display: none;
+    }
   }
 
   &__nav {
@@ -63,5 +110,9 @@
     &-stuff {
       grid-column: 3;
     }
+  }
+
+  &__open {
+    padding: 1rem 1rem;
   }
 }
