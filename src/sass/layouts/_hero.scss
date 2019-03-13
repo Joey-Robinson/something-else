@@ -10,6 +10,17 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(5, 1fr);
+  &__bar-top {
+    grid-column: 1 / -1;
+    grid-row: 1 / 2;
+    height: 75%;
+    background: rgba(255, 255, 255, .25);
+  }
+  &__bar-bottom {
+    grid-column: 1 / -1;
+    grid-row: 5 / -1;
+    background: rgba(255, 255, 255, .25);
+  }
   @include respond(phone) {
     height: 100vh;
     background-repeat: no-repeat;
@@ -19,7 +30,6 @@
     align-self: center;
     justify-self: center;
     animation: slideinLeft 1s linear;
-    text-shadow: 2px 2px 4px black;
     font-family: 'Bree Serif', serif;
     grid-column: 1 / -1;
     grid-row: 1 / -1;
@@ -27,8 +37,10 @@
     color: white;
     font-size: 2.3rem;
     hyphens: auto;
+    @include shadows;
     h1 {
       padding: 0 4rem;
+      margin: 0 0 2rem 0;
     }
     span {
       font-size: 5rem;
@@ -36,7 +48,7 @@
       width: 100%;
       text-align: center;
       padding: 2rem 0 0 0;
-      margin: 0;
+      margin: 0 0 1rem 0;
     }
   }
 }
