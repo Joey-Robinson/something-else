@@ -8,7 +8,7 @@
   // animation: Gradient 10s ease infinite;
   @include respond(phone) {
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
+    grid-template-rows: 100vh 50vh 100vh 100vh auto;
     min-height: 100vh;
   }
 }

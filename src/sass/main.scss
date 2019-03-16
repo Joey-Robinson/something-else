@@ -5,8 +5,11 @@
 @import './base/base';
 @import './base/typography';
 // Components
+@import './components/footer';
 @import './components/header';
 // Layouts
 @import './layouts/container';
 @import './layouts/hero';
+@import './layouts/middle';
+@import './layouts/primary';
 // Pages

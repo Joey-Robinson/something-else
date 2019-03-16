@@ -1,0 +1,9 @@
+.primary {
+
+  @include respond(phone) {
+    grid-column: 1;
+    grid-row: 3;
+    background: pink;
+    height: 100vh;
+  }
+}

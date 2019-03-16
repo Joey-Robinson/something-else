@@ -1,0 +1,7 @@
+.middle {
+  @include respond(phone) {
+    grid-row: 2;
+    grid-column: 1;
+    background: purple;
+  }
+}
