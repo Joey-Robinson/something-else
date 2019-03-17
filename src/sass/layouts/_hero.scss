@@ -3,9 +3,10 @@
   grid-row: 1;
   height: 100vh;
   width: 100vw;
-  background-size: 100%;
+  background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
+  background-size: cover;
   background-image: url(../../src/images/hop-harvest-1596086_1920.jpg);
   display: grid;
   grid-template-columns: repeat(3, 1fr);

@@ -18,6 +18,7 @@
   @include respond(phone) {
     &__open {
       display: inline-block;
+      position: fixed;
     }
 
     &__menu {
@@ -32,9 +33,6 @@
       background-position: center;
       background-repeat: no-repeat;
       background-image: url(../../src/images/hops-2698297_1920.jpg);
-      // background: linear-gradient(-45deg, #FCD2A8, #EC6778, #007D75, #529A86);
-      // background-size: 400% 400%;
-      // animation: Gradient 10s ease infinite;
       overflow-x: hidden;
       padding-top: 5rem;
       transition: 0.5s;

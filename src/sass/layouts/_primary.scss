@@ -5,5 +5,10 @@
     grid-row: 3;
     background: pink;
     height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../../src/images/hopsparallax.jpg);
   }
 }
