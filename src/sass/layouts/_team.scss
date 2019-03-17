@@ -1,0 +1,40 @@
+.team {
+  @include respond(phone) {
+    grid-row: 4;
+    grid-column: 1;
+    background: brown;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+
+    h1 {
+      justify-self: center;
+      grid-row: 1;
+      align-self: start;
+      margin: 2rem 0 0 0;
+      grid-column: 1;
+    }
+
+    &__ceo {
+      grid-row: 1;
+      grid-column: 1;
+      justify-self: center;
+      align-self: center;
+
+      img {
+        border-radius: 50%;
+        overflow: hidden;
+        width: 10rem;
+        height: 10rem;
+        object-fit: cover;
+        transition: all .3s linear;
+
+        &:hover {
+          border-radius: 0;
+          width: 20rem;
+          height: 20rem;
+        }
+      }
+    }
+  }
+}
