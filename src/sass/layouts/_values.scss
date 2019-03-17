@@ -1,0 +1,7 @@
+.values {
+  @include respond(phone) {
+    grid-row: 4;
+    grid-column: 1;
+    background: brown;
+  }
+}

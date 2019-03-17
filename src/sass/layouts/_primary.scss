@@ -3,12 +3,44 @@
   @include respond(phone) {
     grid-column: 1;
     grid-row: 3;
-    background: pink;
     height: 100vh;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-image: url(../../src/images/hopsparallax.jpg);
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+
+    h1 {
+      text-align: center;
+      font-size: 2.3rem;
+    }
+
+    p {
+      padding: 0 1rem;
+      margin: 0rem 0 3rem 0;
+      font-size: 2rem;
+      font-family: 'Ubuntu';
+      hyphens: auto;
+    }
+
+    &__top {
+      grid-row: 1;
+      justify-self: center;
+      margin: 2rem 0 0 0;
+    }
+
+    &__middle {
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-image: url(../../src/images/hops01.jpg);
+      grid-row: 2;
+      height: 100%;
+    }
+
+    &__bottom {
+      justify-self: center;
+      margin: 2rem 0 0 0;
+      grid-row: 3;
+    }
   }
 }

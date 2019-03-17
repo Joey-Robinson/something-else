@@ -20,9 +20,11 @@
       grid-row: 1 / 2;
       height: 45%;
       align-self: start;
+      display: none;
       background: rgba(255, 255, 255, .275);
     }
     &__bar-bottom {
+      display: none;
       grid-column: 1 / -1;
       grid-row: 5 / -1;
       align-self: end;
