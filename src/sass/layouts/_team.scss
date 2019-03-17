@@ -5,7 +5,30 @@
     background: brown;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-rows: 1fr auto 1fr auto 1fr auto;
+
+    div {
+      justify-self: center;
+      align-self: center;
+    }
+
+    button {
+      cursor: pointer;
+    }
+
+    p {
+      font-size: 2rem;
+      color: white;
+      hyphens: auto;
+    }
+
+    img {
+      display: inline-block;
+      border-radius: 50%;
+      width: 12rem;
+      height: 12rem;
+      object-fit: cover;
+    }
 
     h1 {
       justify-self: center;
@@ -16,24 +39,44 @@
     }
 
     &__ceo {
+      justify-self: center;
       grid-row: 1;
       grid-column: 1;
+      margin: 4rem 0 0 0;
+    }
+
+    &__ceo--text {
+      grid-row: 2;
+      grid-column: 1;
       justify-self: center;
+    }
+
+    &__cto {
+      grid-row: 3;
+      grid-column: 1;
+    }
+
+    &__cto--text {
+      grid-row: 4;
+      grid-column: 1;
+      justify-self: center;
+    }
+
+    &__cfo {
+      grid-row: 5;
+      grid-column: 1;
+      margin: 0 0 0rem 0;
       align-self: center;
+    }
 
-      img {
-        border-radius: 50%;
-        overflow: hidden;
-        width: 10rem;
-        height: 10rem;
-        object-fit: cover;
-        transition: all .3s linear;
+    &__cfo--text {
+      grid-row: 6;
+      grid-column: 1;
+      justify-self: center;
 
-        &:hover {
-          border-radius: 0;
-          width: 20rem;
-          height: 20rem;
-        }
+      button {
+        color: black;
+        background: white;
       }
     }
   }
