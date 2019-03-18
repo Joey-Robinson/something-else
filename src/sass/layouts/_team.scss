@@ -2,10 +2,13 @@
   @include respond(phone) {
     grid-row: 4;
     grid-column: 1;
-    background: brown;
+    background: linear-gradient(-45deg, #3C9024, #6CA82A, #90B424, #C0C012);
+    background-size: 400% 400%;
+    animation: Gradient 10s ease infinite;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr auto 1fr auto 1fr auto;
+    color: white;
 
     div {
       justify-self: center;
@@ -18,7 +21,6 @@
 
     p {
       font-size: 2rem;
-      color: white;
       hyphens: auto;
     }
 
@@ -34,8 +36,9 @@
       justify-self: center;
       grid-row: 1;
       align-self: start;
-      margin: 2rem 0 0 0;
+      margin: 1rem 0 0 0;
       grid-column: 1;
+      font-size: 2.5rem;
     }
 
     &__ceo {
@@ -73,6 +76,7 @@
       grid-row: 6;
       grid-column: 1;
       justify-self: center;
+      margin: 0 0 1rem 0;
 
       button {
         color: black;

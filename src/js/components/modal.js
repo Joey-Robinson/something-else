@@ -9,3 +9,27 @@ export const ceoModal = () => {
     modal.style.display = 'none'
   })
 }
+
+export const ctoModal = () => {
+  const cto = document.querySelector('.cto__modal--open')
+  const modal = document.querySelector('.modal__cto')
+  const modalClose = document.querySelector('.cto__modal--close')
+  cto.addEventListener("click", () => {
+    modal.style.display = 'grid'
+  })
+  modalClose.addEventListener("click", () => {
+    modal.style.display = 'none'
+  })
+}
+
+export const cfoModal = () => {
+  const cfo = document.querySelector('.cfo__modal--open')
+  const modal = document.querySelector('.modal__cfo')
+  const modalClose = document.querySelector('.cfo__modal--close')
+  cfo.addEventListener("click", () => {
+    modal.style.display = 'grid'
+  })
+  modalClose.addEventListener("click", () => {
+    modal.style.display = 'none'
+  })
+}

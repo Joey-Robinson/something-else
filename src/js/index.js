@@ -4,9 +4,14 @@ import {
 } from './components/header'
 
 import {
-  ceoModal
+  ceoModal,
+  ctoModal,
+  cfoModal
 } from './components/modal'
+
 ceoModal()
+ctoModal()
+cfoModal()
 
 sliderOpen()
 sliderClose()

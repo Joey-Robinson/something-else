@@ -1,3 +1,17 @@
-.modal__ceo {
+.modal__ceo,
+.modal__cto,
+.modal__cfo {
   @include modalDefaults;
+}
+
+.cto__modal--open,
+.cfo__modal--open,
+.ceo__modal--open {
+  @include modalButtonOpen;
+}
+
+.ceo__modal--close,
+.cto__modal--close,
+.cfo__modal--close {
+  @include modalButtonClose;
 }
