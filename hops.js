@@ -559,6 +559,123 @@ const all = [{
     betaAcid: "7.3%-7.9%",
     link: ""
   }, {
+    name: "Ivanhoe",
+    origin: "USA",
+    information: "Ivanhoe is one of the first revivals of California Cluster in more than 50 years. Revived by organic hop farm Hops-Mesiter, LLC near Clearlake, California, it is a European aroma type and has been compared to a more moderate Cascade. It features a lovely, mellow aroma of citrus and pine, but with heady floral and herbal notes.",
+    purpose: "Aroma",
+    flavorProfile: "Mellow aroma of citrus and pine. Heady floral and herbal notes.",
+    alphaAcid: "7.3%-8%",
+    betaAcid: "4.60%",
+    link: ""
+  }, {
+    name: "Keyworth’s Early",
+    origin: "UK",
+    information: "Bred from a New Mexico wild male in open pollination, it has recently seen somewhat of a revival and is said to impart lemon and grapefruit notes seen as desirable in todays brews.",
+    purpose: "Aroma",
+    flavorProfile: "Lemon and grapefruit notes",
+    alphaAcid: "8.6%",
+    betaAcid: "3.3%",
+    link: ""
+  }, {
+    name: "Kohatu",
+    origin: "New Zeland",
+    information: "Kohatu meaning stone or rock in Maori, was released alongside Wai-iti in 2011. It was named after Kohatu, a small town nestled by the Motueka River, south west of Nelson, New Zealand. Kohatu is not as fruity as Wai-iti, but with its intense aroma of tropical fruit and freshly crushed pine needles, it adds a wonderfully fresh character to beer. Even with a low alpha, when used as an early addition it features a pleasant, rounded bitterness.",
+    purpose: "Aroma",
+    flavorProfile: "Intense tropical fuit and pine needle aroma",
+    alphaAcid: "6.80%",
+    betaAcid: "4%-6%",
+    link: ""
+  }, {
+    name: "",
+    origin: "",
+    information: "",
+    purpose: "",
+    flavorProfile: "",
+    alphaAcid: "",
+    betaAcid: "",
+    link: ""
+  }, {
+    name: "",
+    origin: "",
+    information: "",
+    purpose: "",
+    flavorProfile: "",
+    alphaAcid: "",
+    betaAcid: "",
+    link: ""
+  }, {
+    name: "",
+    origin: "",
+    information: "",
+    purpose: "",
+    flavorProfile: "",
+    alphaAcid: "",
+    betaAcid: "",
+    link: ""
+  }, {
+    name: "",
+    origin: "",
+    information: "",
+    purpose: "",
+    flavorProfile: "",
+    alphaAcid: "",
+    betaAcid: "",
+    link: ""
+  }, {
+    name: "",
+    origin: "",
+    information: "",
+    purpose: "",
+    flavorProfile: "",
+    alphaAcid: "",
+    betaAcid: "",
+    link: ""
+  }, {
+    name: "",
+    origin: "",
+    information: "",
+    purpose: "",
+    flavorProfile: "",
+    alphaAcid: "",
+    betaAcid: "",
+    link: ""
+  }, {
+    name: "",
+    origin: "",
+    information: "",
+    purpose: "",
+    flavorProfile: "",
+    alphaAcid: "",
+    betaAcid: "",
+    link: ""
+  }, {
+    name: "",
+    origin: "",
+    information: "",
+    purpose: "",
+    flavorProfile: "",
+    alphaAcid: "",
+    betaAcid: "",
+    link: ""
+  }, {
+    name: "",
+    origin: "",
+    information: "",
+    purpose: "",
+    flavorProfile: "",
+    alphaAcid: "",
+    betaAcid: "",
+    link: ""
+  }, {
+    name: "",
+    origin: "",
+    information: "",
+    purpose: "",
+    flavorProfile: "",
+    alphaAcid: "",
+    betaAcid: "",
+    link: ""
+  }, {
     name: "",
     origin: "",
     information: "",
