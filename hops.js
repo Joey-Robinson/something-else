@@ -749,7 +749,7 @@ const all = [{
     betaAcid: "UNKOWN",
     link: ""
   }, {
-    name: "Splat",
+    name: "Spalt",
     origin: "Germany",
     information: "Surely one of the world oldest hop varieties, Splat hops date back as far as the 8th century and in the 16th century they were the first variety to be granted the German hop seal – a historically significant certification system predating the current, German Hop Provenance Law. Grown primarily in the Spalt region of Germany, it is one of the original landrace hops.",
     purpose: "Aroma",
@@ -758,7 +758,7 @@ const all = [{
     betaAcid: "3%-5%",
     link: ""
   }, {
-    name: "Splater Select",
+    name: "Spalter Select",
     origin: "Germany",
     information: "Released in 1993, Spalter Select was bred in Hüll, Germany in an effort to increase yield potential and disease resistant and serve as a commercial replacement for Spalt. These efforts were quite successful.",
     purpose: "Aroma",
@@ -767,13 +767,221 @@ const all = [{
     betaAcid: "2%-5%",
     link: ""
   }, {
-    name: "",
-    origin: "",
-    information: "",
-    purpose: "",
-    flavorProfile: "",
-    alphaAcid: "",
-    betaAcid: "",
+    name: "Strissspalt",
+    origin: "France",
+    information: "Strisselspalt hails from the Alsace region of France around Strasbourg and is likely related to German Spalt and/or Hersbrucker hops. Thought to be an old land race, its acreage is dwindling due to its inherent low yield but it survives largely on the back of a strong domestic demand for the variety.",
+    purpose: "Aroma",
+    flavorProfile: "Pleasant continental-style aroma, herbal, floral, spicy, citrus, fruit",
+    alphaAcid: "1.8%-5.7%",
+    betaAcid: "2.5%-6%",
+    link: ""
+  }, {
+    name: "Styrian Golding",
+    origin: "Austria & Slovenia",
+    information: "Styrian Golding or Savinjski Golding as it is commonly known, goes by a multitude of sometimes confusing aliases. Confusing still is the fact it actually doesn’t come from a Golding at all, but is rather the result of the clonal selection of Fuggle and as such exhibits many Fuggle-like characteristics.",
+    purpose: "Aroma",
+    flavorProfile: "Resinous and earthy with hints of white pepper",
+    alphaAcid: "2.8%-6%",
+    betaAcid: "2%-3%",
+    link: ""
+  }, {
+    name: "Summer",
+    origin: "Australlia",
+    information: "A descendant of Saaz, Summer was created by Hop Products Australia in 1997 and is a low alpha aroma hop that can be well-utilized late in the boil. It is however even better suited to dry hopping and it is in this capacity that its apricot and melon bouquet really shines. In any capacity, it is not as spicy as its Czech parent.",
+    purpose: "Aroma",
+    flavorProfile: "Subtle flavors of apricot, melon, peach and grass",
+    alphaAcid: "5.6%-6.4%",
+    betaAcid: "4.8%-6.1%",
+    link: ""
+  }, {
+    name: "Sun",
+    origin: "Australlia",
+    information: "Currently considered as in-development at the S. S. Steiner Hop Farms in Washington State, Sun has not yet been registered or acquired USDA accession. Not much is known about its lineage yet but it is thought to be derived from Brewer’s Gold and sister to Zeus. It has also been suggested that it possesses characteristic similarities to Galena.",
+    purpose: "Bittering",
+    flavorProfile: "Pronounced herbaceous aroma and flavor",
+    alphaAcid: "12%-16%",
+    betaAcid: "4.5-7%",
+    link: ""
+  }, {
+    name: "Sunbeam",
+    origin: "USA",
+    information: "Not originally envisioned for use in brewing, Sunbeam is an ornamental hop that was discovered to be inadvertently useful as an aroma hop. Selected in 1992 in Corvallis, Oregon, it features characteristics similar to that of its parent variety, Saaz.",
+    purpose: "Aroma",
+    flavorProfile: "Noble, herbal character",
+    alphaAcid: "4%-5%",
+    betaAcid: "2.5%",
+    link: ""
+  }, {
+    name: "Sussex",
+    origin: "UK",
+    information: "Sussex hops are an award-winning dwarf variety discovered by Peter Cyster in Northiam, East Sussex in 2005. Its brewing use uncovers a powerful aroma alongside delicate tropical flavors and great flavor retention. It is considered to be forwardly fruity and its unique aroma afforded it third place in the hedgerow category of the Institute of Brewing and Distilling’s British Hop Competition in 2012.",
+    purpose: "Aroma",
+    flavorProfile: "Delicate tropical flavors and a unique fruit-forward aroma",
+    alphaAcid: "4.3%-5.8%",
+    betaAcid: "2.4%-3.2%",
+    link: ""
+  }, {
+    name: "Sylva",
+    origin: "Australlia",
+    information: "Bred by Hop Products Australia in Tasmania in 1997, Sylva is an Australian aroma hop with a subtle and complex tasting profile. Progeny of Saaz, it is these roots that suit it well to light lagers and pilsners, imparting a bohemian-style hoppiness reminiscent of its Czech parent.",
+    purpose: "Aroma",
+    flavorProfile: " Flavors of the forest and fresh-cut timber, subtle and hoppy bohemian-style aroma",
+    alphaAcid: "5.6%-7.3%",
+    betaAcid: "3%-4.6%",
+    link: ""
+  }, {
+    name: "Tahoma",
+    origin: "USA",
+    information: "Released in 2013 by the USDA and Washington State University, Tahoma is the daughter of Glacier. With alpha content higher than its parent, Tahoma features very low cohumulone giving it a subtle, yet lovely lemon citrus aroma and flavor with undertones of orange, woodiness and spice.",
+    purpose: "Aroma",
+    flavorProfile: "Subtle flavors and aromas of lemon citrus, orange, wood and spice",
+    alphaAcid: "7.2%-8.2%",
+    betaAcid: "8.5%-9.5%",
+    link: ""
+  }, {
+    name: "Teamaker",
+    origin: "USA",
+    information: "Developed over several decades by the USDA, Teamaker hops were officially released by the ARS Forage, Seed and Cereal Research Unit in Corvallis, Oregon in the late 2000’s. They are a unique high beta, low alpha breed that have made their mark, not just in the brewing industry, but in the world of medicine and food as well.",
+    purpose: "Aroma",
+    flavorProfile: "Floral aromas. No bitterness whatsoever",
+    alphaAcid: "0.6%-1.8%",
+    betaAcid: "5.4%-13.2%",
+    link: ""
+  }, {
+    name: "Tettnanger",
+    origin: "Germany",
+    information: "Selected from an old German landrace, Tettnanger is grown the world over. Swiss, US and Australian varieties can be found on the market today though some foreign versions labeled “Tettnanger” are actually a hybridized mix with Fuggle and not considered a true Tettnanger hop. Tettnanger is grown around its native village of Tettnang in southwest Germany and in small quantities near lake Konstanz in Switzerland.",
+    purpose: "Aroma & Bittering",
+    flavorProfile: "Balanced floral and herbal aromas with some spiciness",
+    alphaAcid: "3%-5.8%",
+    betaAcid: "2.8%-5.3%",
+    link: ""
+  }, {
+    name: "Tettnanger (Swiss)",
+    origin: "Switzerland",
+    information: "While it was initially thought to be the same variety as the original German Tettnanger, the Swiss-grown version is now considered to be genetically unique. While the original variety is also known to be cultivated in Switzerland, much of the branded Tettnanger (Swiss) product is actually Fuggle-derived. Despite this, it is higher yielding than its German Tettnanger counterpart and features a similar, noble aroma.",
+    purpose: "Aroma",
+    flavorProfile: "Noble aroma",
+    alphaAcid: "4.1%-6.3%",
+    betaAcid: "3.6%-5.7%",
+    link: ""
+  }, {
+    name: "Tettnanger A",
+    origin: "Germany",
+    information: "Tettnanger A was created in the 1970’s at the University of Hohenheim in Germany via clonal selection from the original Tettnanger hop. Sibling to Tettnanger B, Tettnanger A was originally thought to contain higher alpha percentages though testing in the US has brought this into question. It is said to have a pleasant, continental-style aroma and like it’s parent, is thought to be a descendant of Czech variety, Saaz.",
+    purpose: "Aroma",
+    flavorProfile: "Pleasant continental-style aroma",
+    alphaAcid: "4.4%",
+    betaAcid: "5%",
+    link: ""
+  },
+  {
+    name: "Tettnanger B",
+    origin: "Germany",
+    information: "Sister to Tettnanger A, Tettnanger B was also thought to be superior to its parent through heightened levels of alpha. Through US testing however, this is now in question. Bred in the 1970’s through clonal selection from the original German Tettnanger hop, it features pleasant, continental-style aroma characteristics. It is also very likely descended from Czech variety, Saaz, a variety to which it is genetically similar.",
+    purpose: "Aroma",
+    flavorProfile: "Pleasant continental-style aroma",
+    alphaAcid: "5.3%",
+    betaAcid: "5.2%",
+    link: ""
+  }, {
+    name: "Topaz",
+    origin: "Australlia",
+    information: "Created in 1985 by Hop Products Australia in the Rostrevor Breeding Garden in Victoria, Topaz was always intended to be a high-alpha hop. The result of a mix between an Australian high-alpha variety and a UK male sourced from Wye College in England, Topaz is a unique blend of Australian and European flavors and aromas.",
+    purpose: "Aroma & Bittering",
+    flavorProfile: "Light, tropical fruit flavors of lychee, clove-like spice and resinous grassy tones when dry hopped",
+    alphaAcid: "13.7%-17.7%",
+    betaAcid: "6.4%-7.9%",
+    link: ""
+  }, {
+    name: "Triskel",
+    origin: "France",
+    information: "Developed in France in 2006, Triskel is a cultivar of the French hop, Strisselspalt and English varietal, Yeoman. With a more pronounced nose than its French parent, Triskel makes a unique first wort alternative and its notable aroma qualities make it well suited as a late addition or for dry hopping. Highly desired for Belgian-style or lighter ales, it features and elegant combination of both floral and subtle fruity notes with some citrus.",
+    purpose: "Aroma",
+    flavorProfile: "Floral aroma, subtly fruity, citrusy",
+    alphaAcid: "8%-9%",
+    betaAcid: "4%-4.7%",
+    link: ""
+  }, {
+    name: "Ultra",
+    origin: "USA",
+    information: "Ultra hops have traditionally only been grown only in the United States and even then in somewhat limited qualities. They were developed in Oregon in 1983, released commercially in 1995 and are a triploid variety rich in humulene, giving them a mildly spicy aroma and flavor.",
+    purpose: "Aroma",
+    flavorProfile: "Midly spicy aroma and flavor",
+    alphaAcid: "3%-5%",
+    betaAcid: "3.6%-5%",
+    link: ""
+  }, {
+    name: "Vanguard",
+    origin: "USA",
+    information: "Vanguard was the final Hallertau-derived variety to come out of the USDA’s hop breeding program and were released to the brewing world in 1997 after a long 15 years of development and testing. They are grown principally in the US and are considered great for adding a European-style aroma component to German-style beers.",
+    purpose: "Aroma",
+    flavorProfile: "European-style aroma component.",
+    alphaAcid: "4.40%-6%",
+    betaAcid: "6%-7%",
+    link: ""
+  }, {
+    name: "Wai-iti",
+    origin: "New Zeland",
+    information: "A truly modern triploid hop, Wai-iti brings forth a fresh splash of lime and stone fruit. It was released to brewers in 2011 alongside Kohatu by New Zealand Plant & Food Research and features higher beta acids than alpha acids, low cohumulone and robust oil content.",
+    purpose: "Aroma",
+    flavorProfile: "Lime citrus and stone fruit notes",
+    alphaAcid: "2.5%-3.5%",
+    betaAcid: "4.5%-5.5%",
+    link: ""
+  }, {
+    name: "Whitebread Golding",
+    origin: "UK",
+    information: "Whitbread Golding enjoys a robust flavor and hoppiness particularly in comparison to other Golding varieties. With its pleasant, fruity, European-style aromatics, it has traditionally been very popular in England and is currently grown extensively for commercial, craft and home brewing use.",
+    purpose: "Aroma",
+    flavorProfile: "Pleasant, fruity, European style aroma",
+    alphaAcid: "5%-7.5%",
+    betaAcid: "2.5%-3.5%",
+    link: ""
+  }, {
+    name: "Willamette",
+    origin: "USA",
+    information: "Considered a pillar of the US hops industry, Willamette is one of the most prolifically grown varieties in the US. First selected in Oregon in 1967, it received USDA accession in 1971 and was released the same year. Originally bred to replace Fuggle, it has excelled in popularity in recent times, particularly among craft brewers and accounts for approximately 20% of all commercially grown hops in the US today.",
+    purpose: "Aroma",
+    flavorProfile: "Heraceous spiciness, floral, fruity",
+    alphaAcid: "4%-6%",
+    betaAcid: "3%-4%",
+    link: ""
+  }, {
+    name: "Willamette",
+    origin: "Australlia",
+    information: "Willamette (AUS) hops are a directly descended from US-grown Willamette and were introduced to Australia in 1988. Imported and primarily grown by Hop Products Australia, the Australian version of this iconic aroma hop features a mlld, spicy, resinous and floral character.",
+    purpose: "Bittering & Aroma",
+    flavorProfile: "Mildly resinous, floral character",
+    alphaAcid: "5%-7.2%",
+    betaAcid: "3.9%-5.7%",
+    link: ""
+  }, {
+    name: "Zlatan",
+    origin: "Czechia",
+    information: "Released in 1976, Zlatan is native to Czechia and is one of a great many clonal selections of Saaz. Created by the Hop Research Institute in Zatec, it, like many other Saaz clones were selected in an attempt to improve yields while retaining its parent’s signature aroma profile.",
+    purpose: "Aroma",
+    flavorProfile: "Mild bitterness, pleasant noble aroma",
+    alphaAcid: "5.2%",
+    betaAcid: "4.3%",
+    link: ""
+  }, {
+    name: "Zythos",
+    origin: "USA",
+    information: "Created by Hopunion LLC, Zythos is a proprietary hop blend created specifically with IPA’s in mind. It features notes and aromas of tangerine, grapefruit, pine and even pineapple. Its high alpha acid content means it can be useful for bittering but is largely intended to shine as an aroma hop.",
+    purpose: "Aroma & Bittering",
+    flavorProfile: "Notes of tangerine, grapefruit, pine and pineapple",
+    alphaAcid: "10%-12.5%",
+    betaAcid: "4.7%-6.2%",
+    link: ""
+  }, {
+    name: "Amallia",
+    origin: "USA",
+    information: "Native to New Mexico, Amallia is a neomexicana varietal with a deeply earthy aroma and pronounced flavors of orange citrus. Bold and unique, it is considered well suited to brown or dark ales for both bittering and aroma. This variety was being trialed in Michigan by Michigan State University researchers in 2014.",
+    purpose: "Aroma & Bittering",
+    flavorProfile: "Deep earthy aroma",
+    alphaAcid: "5.5%-9%",
+    betaAcid: "4.2%-8.3%",
     link: ""
   }, {
     name: "",
