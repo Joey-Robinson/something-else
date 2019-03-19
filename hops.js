@@ -586,13 +586,185 @@ const all = [{
     betaAcid: "4%-6%",
     link: ""
   }, {
-    name: "",
-    origin: "",
-    information: "",
-    purpose: "",
-    flavorProfile: "",
-    alphaAcid: "",
-    betaAcid: "",
+    name: "Lubelski",
+    origin: "Czechoslovakia",
+    information: "Often thought to be a Polish hop, Lubelska actually originates in Zatec, Czechia. Sometimes marketed as Lublin or Lubelski, Lubelska’s high humulene content is trumped only by its rare, high levels of farnesene. This oil profile results in interesting aromas of magnolia and lavender. It is considered to very noble-like in character. Thought to be a landrace cultivar of Saaz, it is now a mainstay of Polish breweries.",
+    purpose: "Aroma",
+    flavorProfile: "Noble-like character",
+    alphaAcid: "3%-5%",
+    betaAcid: "2.5%-4%",
+    link: ""
+  }, {
+    name: "Lucan",
+    origin: "Czechia",
+    information: "Developed at the Hop Research Institute in Zatec, Czechia, and officially registered in 1941, Lucan was created via clonal selection of the Czech Zatecky Krajovy variety. Known as being one of the Czech Rebublic’s oldest varieties, it is also thought likely to be a close relative of Saaz. Noted for its commercially desirable noble aroma qualities and mild bitterness, its yield is marginal in the US, but decent in its native Czechia.",
+    purpose: "Aroma",
+    flavorProfile: "Mild bitterness, noble aroma",
+    alphaAcid: "4%",
+    betaAcid: "3.3%",
+    link: ""
+  }, {
+    name: "Mandarina Bavaria",
+    origin: "Germany",
+    information: "Daughter of Cascade (US), Hallertau Blanc and Hüll Melon, Mandarina Bavaria originated in Hüll, Germany and was released to the brewing masses in 2012. It is useful for both flavor and aroma and imparts slightly sweet notes of tangerine and citrus, especially when used for dry hopping.",
+    purpose: "Aroma",
+    flavorProfile: "Tangerine, Citrus",
+    alphaAcid: "8.5%-10.5%",
+    betaAcid: "5%-6.5%",
+    link: ""
+  }, {
+    name: "Motueka",
+    origin: "New Zeland",
+    information: "Formerly known as Belgian Saaz or B Saaz, Motueka is a premier New Zealand hop. Developed by HortResearch, this triploid was bred from Saaz and an unnamed New Zealand breeding strain and lends itself well to Lagers, Pilsners and Belgian Ales.",
+    purpose: "Aroma & Bittering",
+    flavorProfile: "Tropical fruit and citrus",
+    alphaAcid: "6.5%-8.5%",
+    betaAcid: "5%-5.5%",
+    link: ""
+  }, {
+    name: "Mount Hood",
+    origin: "USA",
+    information: "Released in 1989, Mount Hood is an American-bred cultivar stemming from Hallertau Mittelfrüher. Popular among American craft brewers, it makes a good aroma hop, with characteristics similar to a Hallertau or Hersbrucker and is also half-sister to Crystal, Ultra and Liberty.",
+    purpose: "Aroma",
+    flavorProfile: "Noble hop aroma",
+    alphaAcid: "4%-8%",
+    betaAcid: "5%-8%",
+    link: ""
+  }, {
+    name: "Mount Rainer",
+    origin: "USA",
+    information: "Like Mount Hood, Mount Rainier is named after one of the many active volcanoes in Washington State. Born out of the USDA-ARS hop breeding program in collaboration with Oregon State University, Mount Rainier is the progeny of Magnum and a USDA male. It has noble, Hallertau-like aroma characteristics alongside notes of citrus and a hint of licorice. ",
+    purpose: "Aroma & Bittering",
+    flavorProfile: "Citrus and licorice",
+    alphaAcid: "5%-8.1%",
+    betaAcid: "5%-7%",
+    link: ""
+  }, {
+    name: "Pacific Jade",
+    origin: "New Zeland",
+    information: "Released from HortResearch’s New Zealand Hop Research Program in 2004, Pacific Jade started its commercial existence predominately limited to the New Zealand domestic market. Now however, it is finding its way into inventories worldwide.",
+    purpose: "Aroma",
+    flavorProfile: "Flavors of lemon citrus and cracked pepper",
+    alphaAcid: "12%-14%",
+    betaAcid: "7%-8%",
+    link: ""
+  }, {
+    name: "Pacifica",
+    origin: "New Zeland",
+    information: "Bred in New Zealand, triploid aroma hop Pacifica, or Pacific Hallertau as it is sometimes known, is the result of open pollination breeding of German hop Hallertauer Mittelfrüher. The hop was released by HortResearch, New Zealand following promising brewing trials in 1994",
+    purpose: "Aroma",
+    flavorProfile: "Citrusy, spicy, orange and floral aromas",
+    alphaAcid: "5%-6%",
+    betaAcid: "6%",
+    link: ""
+  }, {
+    name: "Palisade",
+    origin: "USA",
+    information: "For brewers, Palisade hops, bred by Yakima Chief Ranch feature complex floral, herbal and grassy aromas in addition to flavors of nectar fruits and citrus. For growers, it exhibits nothing short of incredible yield potential – at least in its native Yakima Valley, Washington environment. Palisade is an open pollination cross from Swiss Tettnanger.",
+    purpose: "Aroma",
+    flavorProfile: "Flavors of nectar fruits and citrus, aromas that are floral, herbaceous and grassy",
+    alphaAcid: "5.5%-9.5%",
+    betaAcid: "6%-8%",
+    link: ""
+  }, {
+    name: "Premiant",
+    origin: "Czechia",
+    information: "Premiant, meaning prized or prize-winning, is moderately bittering with a low cohumulone ratio. This makes it an ideal neutral bittering agent, especially for Pilsners. Released in 1996, it is a descendant of Northern Brewer and often employed by brewers in Belgian Pilsners and is also well suited to Belgian, French and German Ales as well. This versatility is perhaps one reason that breweries dabbling in Czech or Belgian styles have a strong preference for Premiant.",
+    purpose: "Aroma",
+    flavorProfile: "Neutral bittering, slightly spicy",
+    alphaAcid: "8%-12.5%",
+    betaAcid: "4.5%-8%",
+    link: ""
+  }, {
+    name: "Record",
+    origin: "Belgium",
+    information: "Originating in Belgium sometime prior to 1970, Record hops feature a pleasant European aroma. Bred from an open pollination Saaz and Northern Brewer, their aroma characteristics are said to closely resemble that of the later parent, Northern Brewer. Flavor-wise, they have been described as mild and somewhat fruity. Record has been grown in a commercial capacity in both Germany and Belgium.",
+    purpose: "Aroma",
+    flavorProfile: "Pleasant European aroma, mildly fruity",
+    alphaAcid: "7%-12%",
+    betaAcid: "4%-8%",
+    link: ""
+  }, {
+    name: "Riwaka",
+    origin: "New Zeland",
+    information: "Considered to be one of the darling hops of the New Zealand craft beer scene, Riwaka’s abundant oil content is nearly twice that of its parent variety Saaz. This unique oil balance alongside a near 1:1 ratio of alpha to beta acids gives it a strong sweet citrus note that, according to one brewer, makes it the “ultimate” for hoppy beers. Riwaka, formerly known as D Saaz, is a product of HortResearch’s New Zealand Hops “hops with a difference” program and was officially released to the brewing world in 1997.",
+    purpose: "Aroma",
+    flavorProfile: "Notes of grapefruit and kumquat",
+    alphaAcid: "4.5%-6.5%",
+    betaAcid: "4%-5%",
+    link: ""
+  },
+  {
+    name: "Saaz",
+    origin: "Czechia",
+    information: "Officially registered in 1952, the original Saaz, or Czech Saaz as it is sometimes known, has established itself as a staple variety for brewers and dates back more than 700 years. Originating in Zatec, Bohemia (now part of the Czech Republic) it is an esteemed red-bine variety that is now grown around the world. New Zealand in particular has embraced Saaz, breeding several descendants including the popular Motueka and Riwaka varieties (B & D Saaz, respectively).",
+    purpose: "Aroma",
+    flavorProfile: "Noble, herbal character",
+    alphaAcid: "2.5%-4.5%",
+    betaAcid: "4%-6%",
+    link: ""
+  }, {
+    name: "American Saaz",
+    origin: "USA",
+    information: "Despite exhibiting a low yield, Saaz (US) is a popular commercial aroma variety and is used in many US beers today. Bred from the original centuries-old Czech Saaz variety, it carries the same noble qualities but with some subtle differences. Its flavor and aroma profile is mild, earthen and spicy and its alpha is slightly higher than its Czech twin. Saaz (US) is primarily used in Lagers and Pilsners.",
+    purpose: "Aroma",
+    flavorProfile: "Mild, earthy, spicy, herbal",
+    alphaAcid: "3%-4.5%",
+    betaAcid: "3%-4.5%",
+    link: ""
+  }, {
+    name: "Santiam",
+    origin: "USA",
+    information: "Developed at the Agriculture Research Service in Corvallis, Oregon, Santiam hails from parent varietals Swiss Tettnanger, German Hallertauer Mittelfrüher and a slightly more distant Cascade (US)-derived cultivar. It was released to the brewing public in 1997 and features a well-balanced oil profile.",
+    purpose: "Aroma",
+    flavorProfile: "Soft, herbal, floral, fruity aromas with hints of pepper and spice",
+    alphaAcid: "5%-8%",
+    betaAcid: "5.3%-8%.5",
+    link: ""
+  }, {
+    name: "Saphir",
+    origin: "Germany",
+    information: "Released in 2002, Saphir features elements of spice and fruit amid refined citrus notes of tangerine. It is considered well suited to Belgian Whites as well as Pilsners and German Lagers.",
+    purpose: "Aroma",
+    flavorProfile: "Sweet citrus aromas with hints of tangerine",
+    alphaAcid: "2%-4.5%",
+    betaAcid: "4%-7%",
+    link: ""
+  }, {
+    name: "Sladek",
+    origin: "Czechia",
+    information: "Sladek, meaning ‘brewer’, is a high yielding aroma variety and cross between Saaz and Northern Brewer. Originally registered as VUCH 71 In 1987, it was renamed to Sladek in 1994. Sladek features a classic hoppy aroma atop a fruity flavor profile with essences of peach, passionfruit and grapefruit.",
+    purpose: "Aroma",
+    flavorProfile: "Classic hoppy aroma, flavors of peach passionfruit and grapefruit",
+    alphaAcid: "4.5%-8%",
+    betaAcid: "4%-7%",
+    link: ""
+  }, {
+    name: "Sonnet",
+    origin: "USA",
+    information: "Sonnet is a new, Oregon-grown hop said to have Saaz and Styrian Golding characteristics. It has a low alpha acid content and makes a nice aroma hop, exhibiting deeply floral, grassy and earthy notes alongside a balanced, rounded bitterness. Flavor-wise it is said to demonstrate some fruitiness with hints of oak and honey.",
+    purpose: "Aroma",
+    flavorProfile: "Deep floral aroma, grass, earth, flavors of oak and honey",
+    alphaAcid: "2.6%-6%",
+    betaAcid: "UNKOWN",
+    link: ""
+  }, {
+    name: "Splat",
+    origin: "Germany",
+    information: "Surely one of the world oldest hop varieties, Splat hops date back as far as the 8th century and in the 16th century they were the first variety to be granted the German hop seal – a historically significant certification system predating the current, German Hop Provenance Law. Grown primarily in the Spalt region of Germany, it is one of the original landrace hops.",
+    purpose: "Aroma",
+    flavorProfile: "Earth, spice",
+    alphaAcid: "2.5%-5.7%",
+    betaAcid: "3%-5%",
+    link: ""
+  }, {
+    name: "Splater Select",
+    origin: "Germany",
+    information: "Released in 1993, Spalter Select was bred in Hüll, Germany in an effort to increase yield potential and disease resistant and serve as a commercial replacement for Spalt. These efforts were quite successful.",
+    purpose: "Aroma",
+    flavorProfile: "Earth, spice, Lightly flowery and spicy aroma",
+    alphaAcid: "3%-6.5%",
+    betaAcid: "2%-5%",
     link: ""
   }, {
     name: "",
