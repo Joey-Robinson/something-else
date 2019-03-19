@@ -405,6 +405,169 @@ const all = [{
     betaAcid: "2%-3%",
     link: ""
   }, {
+    name: "Celeia",
+    origin: "Slovenia",
+    information: "Celeia is the triploid offspring of Styrian Golding, Aurora and a Slovenian wild hop. It features an excellently balanced profile all around and very good storage stability. A versatile hop, it has seen widespread use in Lagers, Pilsners, English-style ales and ESBs. It loves deep clay soil and requires a large planting distance.",
+    purpose: "Aroma",
+    flavorProfile: "Floral and citrus aroma",
+    alphaAcid: "5%-6%",
+    betaAcid: "3%-4%",
+    link: ""
+  },
+  {
+    name: "Crystal",
+    origin: "USA",
+    information: "Despite a relatively low yield, Crystal’s has made it a fairly popular hop. It’s woodsy, green, floral and fruity with herb and spice notes of cinnamon, nutmeg and black pepper. Extremely versatile, it’s even used for its notable aromatic qualities in IPAs and Bitters despite its low alpha acid content.",
+    purpose: "Aroma",
+    flavorProfile: "Woody, floral and fruity with spice notes of cinnamon, nutmeg and black pepper",
+    alphaAcid: "2.8%-4.4%",
+    betaAcid: "5.8%-7%",
+    link: ""
+  }, {
+    name: "Dana",
+    origin: "Slovenia",
+    information: "Dana, or Extra Styrian Dana as it is often known, is a Slovenian hop bred from Hallertau Magnum and a wild Slovenian male. A product of the Institute of Hop Research in Zalec, Solvenia, it is said to feature quality and harmonious bittering properties alongside a slightly floral and citrus flavor profile.",
+    purpose: "Aroma & Bittering",
+    flavorProfile: "Subtle floral and citrus flavors",
+    alphaAcid: "11%-16%",
+    betaAcid: "4%-6%",
+    link: ""
+  }, {
+    name: "East Kent Golding",
+    origin: "UK & Oregon",
+    information: "East Kent Golding is often thought of as the ultimate English hop. Grown exclusively in Kent, England and descended from Canterbury Whitebine, it is a centuries old variety. Despite claims to the contrary, it is identical to Canterbury Golding. The two names have been used interchangeably for some time. Canterbury is a town in East Kent and the hop was first brought to market there in 1790. Some, however, charge to this day that East Kent Golding and Cantebury Golding are two distinct varieties though there is no clear evidence to support this. The variety began to be known primarily as East Kent Golding in 1838.",
+    purpose: "Aroma",
+    flavorProfile: "Aromas of lavender, spice, honey, thyme, earthy flavors",
+    alphaAcid: "5%-6%",
+    betaAcid: "2%-3%",
+    link: ""
+  }, {
+    name: "Eastern Green",
+    origin: "Japan",
+    information: "Eastern Green is an aroma variety developed and tested in the 1980’s by the Kirin Brewery Co. Ltd. Hop Research Center in Iwate, Japan. It was conceived via an open pollination cross with named parent varietal, Toyomidori. In addition to its high vigor and yield, it is said to have desirable continental-style aroma traits.",
+    purpose: "Aroma",
+    flavorProfile: "Pleasant continental-style aroma",
+    alphaAcid: "5.15%",
+    betaAcid: "1.9%-2%",
+    link: ""
+  }, {
+    name: "El Dorado",
+    origin: "USA",
+    information: "High vigor, high alpha acids, lots of oils and resins, good storage stability and an exceptional yield also make this, on paper at least, an outstanding commercial variety. It exhibits bold tropical fruit flavors, said to be reminiscent of pineapple and mango, in addition to a resinous back note. On the nose, it imbues aromas of pear, watermelon, stone fruits and even candy. To date, it has seen use in wheat beers, Pale Ales and IPA’s.",
+    purpose: "Aroma & Bittering",
+    flavorProfile: " 	Flavors of tropical fruit, pineapple, mango. Aromas of pear, watermelon, stone fruit and candy.",
+    alphaAcid: "13%-17%",
+    betaAcid: "7%-8%",
+    link: ""
+  }, {
+    name: "Ella",
+    origin: "Australlia",
+    information: "Ella hops, formally known as Stella, is an Australian aroma variety. It is half-sister to Galaxy and the progeny of Spalt and a tetraploid female and was developed in the state of Victoria in the early 2000’s. By 2007, Ella was ready for release in brewing trials. An immediate hit, the variety was fast-tracked into commercial production.",
+    purpose: "Aroma",
+    flavorProfile: "Tropical flavors, grapefruit, star anise",
+    alphaAcid: "13.3%-16.3%",
+    betaAcid: "4.8%-7.8%",
+    link: ""
+  }, {
+    name: "Equinox",
+    origin: "USA",
+    information: "Developed by The Hop Breeding Company, a joint venture between John I Haas and the Select Botanicals Group, Equinox is a distinctive aroma hop. Planted originally in Toppenish, Washington and officially unveiled in 2014, its use is said to bring with it notes of lemon and lime citrus, fruits like papaya and apple as well as green peppers and herbs.",
+    purpose: "Aroma",
+    flavorProfile: "Notes of lemon and lime citrus, fruits like papaya and apple, green peppers and herbs",
+    alphaAcid: "14.5%-15.5%",
+    betaAcid: "4.5%-5.5%",
+    link: ""
+  }, {
+    name: "Golding",
+    origin: "USA",
+    information: "Golding (US) hops are descended from the original East Kent Golding. In North America, they were first grown in British Columbia, and then appeared in the state of Washington in 1993 and Oregon after that. They are no longer grown commercially in Canada. They feature a subtle bitterness when used as a early addition but are predominantly used for their quintessentially ‘English’ flavor and aroma.",
+    purpose: "Aroma",
+    flavorProfile: "Delicate English-style aromas, fruit, herbs",
+    alphaAcid: "4%-6%",
+    betaAcid: "2%-3%",
+    link: ""
+  }, {
+    name: "Hallertau",
+    origin: "New Zeland",
+    information: "New Zealand Hallertau is a triploid hop bred from Hallertau Mittelfrüher and a New Zealand male cultivar. First introduced in 1988 by HortResearch (now the New Zealand Institute for Plant and Food Research), it is purported to impart a distinct lime ‘zing’ beneath a delicately floral top.",
+    purpose: "Aroma",
+    flavorProfile: "Distinct lime ‘zing’, delicately floral, clean tasting",
+    alphaAcid: "7%-9%",
+    betaAcid: "5.8%-8.5%",
+    link: ""
+  }, {
+    name: "Hallertau",
+    origin: "USA",
+    information: "Hallertau (US) is definitely a tenacious, Bavarian-style hop. It long dominated its heritage region and is still in demand by craft brewers for Bavarian-style ales. As an American hop, it is outperformed by Mt. Hood and Liberty but is still holding its own. Its low alpha acids and high humulene contribute to a mild, flowery and delicately spicy aroma and flavor profile. The original German-grown Hallertau has long been the staple of German and European lagers.",
+    purpose: "Aroma",
+    flavorProfile: "Flowery, delicately spicy",
+    alphaAcid: "3.5%-5.5%",
+    betaAcid: "3.5%-5.5%",
+    link: ""
+  }, {
+    name: "Hallertau Blanc",
+    origin: "Germany",
+    information: "Hallertau Blanc, daughter of Cascade, was released to the world in 2012. Established on the Hüll farm in the German Hallertau region, it was grown primarily for use in American-style Ales. Hallertau Blanc’s flavor profile is said to be fruity, with wine-like qualities of gooseberry and grass, similar to that of Sauvignon Blanc. It also features a complex aroma profile with notes of cassis and elderflower in addition to grapes, grapefruit and lemongrass. Other notes detected in trials have been passionfruit, pineapple and gooseberry.",
+    purpose: "Aroma",
+    flavorProfile: "Flavors of white-wine and fruit, aromas of cassis, elderflower, grapes, grapefruit and lemongrass.",
+    alphaAcid: "9%-12%",
+    betaAcid: "4.5%-6%",
+    link: ""
+  }, {
+    name: "Hallertau Gold",
+    origin: "Germany",
+    information: "A varietal of the German Institute for Hop Research in Huell, Germany, Hallertauer Gold is a descendant of Hallertau Mittelfrüher and is often marketed under various, similar names. Developed in the mid-1970s, it was released to the public in the late 1980s. A lot of commercially sold Hallertau is usually Hallertauer Gold or Hallertauer Gold combined with Hallertau Mittelfrüher. Its aroma is continental but with higher alpha acids and low cohumulone. This hop was bred to be more wilt resistant than its parent after persistent wilt became an issue in Germany.",
+    purpose: "Aroma",
+    flavorProfile: "Pleasing continental aroma",
+    alphaAcid: "7%-10%",
+    betaAcid: "5%-7%",
+    link: ""
+  }, {
+    name: "Hallertauer Tradition",
+    origin: "Germany",
+    information: "Hallertau Tradition is a Hüll-bred fine aroma hop originating from Hallertau Mittelfrüher, Hallertauer Gold and Saaz. Bred specifically for fungus and disease resistance, it succeeded in that effort and also features higher alpha acids than its parent varieties, low cohumulone and higher myrcene. It was released for commercial production in 1989.",
+    purpose: "Aroma",
+    flavorProfile: " Earthy, grassy, aromas of nectar fruits",
+    alphaAcid: "4.6%-7%",
+    betaAcid: "4%-5%",
+    link: ""
+  }, {
+    name: "Helga",
+    origin: "Australlia",
+    information: "Helga is an Australian cultivar, formerly known as Southern Hallertau. Helga was bred by Hop Products Australia from Hallertau Mittelfrüher in an effort to dissect and retain its Hallertau’s characteristic noble aroma. Helga is easy to work with—no matter at what point she is added into the brew, even when dry hopping, the results are said to be ever pleasant. It is mildly floral and spicy. Helga made a quiet debut, established in 1996 it took nearly 10 years to catch on commercially. Currently, production is being increased as craft brewers take interest.",
+    purpose: "Aroma",
+    flavorProfile: "Noble-style aroma, mildly floral and spicy",
+    alphaAcid: "5.4%-7.3%",
+    betaAcid: "5%-7%",
+    link: ""
+  }, {
+    name: "Hersbrucker",
+    origin: "Germany",
+    information: "Hersbrucker reached the height of it’s popularity in the 1970’s and 1980’s but despite that, Germany’s overall production of this hop today still exceeds 1000 metric tons each year. It can even be found organically grown on several boutique hop farms.",
+    purpose: "Aroma",
+    flavorProfile: "Floral, fruity and spicy aromas",
+    alphaAcid: "2%-5%",
+    betaAcid: "4%-6%",
+    link: ""
+  }, {
+    name: "Huell Melon",
+    origin: "Germany",
+    information: "Relatively new on the market, Hüll Melon made its debut in 2012. A daughter of Cascade (US), it has some interesting flavor characteristics not commonly associated with hops. It is noted to be intensely fruity with flavors and aromas of honeydew melon and strawberry.",
+    purpose: "Aroma",
+    flavorProfile: "Intensely fruity, flavors and aromas of honeydew melon, strawberry",
+    alphaAcid: "6.9%-7.5%",
+    betaAcid: "7.3%-7.9%",
+    link: ""
+  }, {
+    name: "",
+    origin: "",
+    information: "",
+    purpose: "",
+    flavorProfile: "",
+    alphaAcid: "",
+    betaAcid: "",
+    link: ""
+  }, {
     name: "",
     origin: "",
     information: "",
