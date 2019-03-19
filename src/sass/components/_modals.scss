@@ -16,3 +16,18 @@
 .cfo__modal--close {
   @include modalButtonClose;
 }
+
+.exit__modal--ceo,
+.exit__modal--cto,
+.exit__modal--cfo {
+  grid-row: 1;
+  grid-column: 1;
+  position: fixed;
+  font-size: 2.5rem;
+  top: -42rem;
+  right: 1rem;
+  color: white;
+  background: none;
+  border: none;
+  outline: none;
+}
