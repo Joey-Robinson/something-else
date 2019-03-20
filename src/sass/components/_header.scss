@@ -24,6 +24,7 @@
 
     &__menu {
       height: 100%;
+      width: 100vw;
       width: 0;
       position: fixed;
       z-index: 2;
@@ -31,11 +32,8 @@
       top: 0;
       left: 0;
       font-size: 3.5rem;
+      animation: roadRunnerIn .3s cubic-bezier(0.165, 0.840, 0.440, 1.000) forwards;
       background: url(../../src/images/hops04.jpg) no-repeat center center / cover;
-      // background-size: 100vh;
-      // background-position: center;
-      // background-repeat: no-repeat;
-      // background-image: url(../../src/images/hops04.jpg);
       overflow-x: hidden;
       padding-top: 5rem;
       transition: 0.5s;
@@ -43,12 +41,11 @@
       grid-template-columns: 1fr;
 
       .active {
-        // border-right: 3px solid white;
         box-shadow: 0 1px lime inset, 0 -1px lime inset, -1px 0 lime inset, 1px 0 lime inset;
       }
 
       &--animated {
-        padding: 0 1rem;
+        padding: 0 3rem;
 
         &:hover {
           @include menuHover;
@@ -59,8 +56,13 @@
         grid-column: 1;
         align-self: center;
         justify-self: center;
+        text-align: center;
+        padding: 1rem 0;
+        background: rgba(0, 0, 0, .33);
+        width: 55%;
 
         a {
+          margin: 1rem 0 0 0;
           display: inline-block;
           color: white;
           @include shadows;
@@ -68,13 +70,19 @@
         }
       }
 
-      &-close {
+      &--close {
         position: absolute;
         right: 1rem;
-        top: 0;
-        margin-bottom: -2rem;
+        top: 1rem;
+        display: inline-block;
         font-size: 5rem;
         color: white;
+        padding: 0;
+        margin: 0;
+
+        &:hover {
+          transform: translateY(3px);
+        }
       }
     }
 
