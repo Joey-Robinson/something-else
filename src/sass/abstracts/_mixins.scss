@@ -1,3 +1,8 @@
+@mixin menuHover {
+  transition: all .3s ease-in-out;
+  box-shadow: 0 3px lime inset, 0 -3px lime inset, -3px 0 lime inset, 3px 0 lime inset;
+}
+
 @mixin shadows {
   text-shadow: 2px 2px 4px black;
 }
