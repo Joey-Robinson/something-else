@@ -1211,49 +1211,248 @@ const all = [{
     betaAcid: "4%-5.5%",
     link: ""
   }, {
-    name: "",
-    origin: "",
-    information: "",
-    purpose: "",
-    flavorProfile: "",
-    alphaAcid: "",
-    betaAcid: "",
+    name: "Horizon",
+    origin: "USA",
+    information: "Considered dual-use it has high alpha acids, but also low cohumulone – a trait considered highly favorable when bittering. Its high myrcene and high farnesene content give it some great aroma and flavor notes too, both floral and citrusy.",
+    purpose: "Bittering & Aroma",
+    flavorProfile: "Floral, citrusy",
+    alphaAcid: "8.8%-16.5%",
+    betaAcid: "5.5%-8.5%",
     link: ""
   }, {
-    name: "",
-    origin: "",
-    information: "",
-    purpose: "",
-    flavorProfile: "",
-    alphaAcid: "",
-    betaAcid: "",
+    name: "Legacy",
+    origin: "USA",
+    information: "The variety displays some lovely wild notes such as blackberry, black currant, orange and grapefruit as well as floral and spicy notes. Legacy is about as far from a noble-style hop aroma as you can get.",
+    purpose: "Bittering & Aroma",
+    flavorProfile: "Notes of blackberry, black currant, orange and grapefruit. Floral and spicy.",
+    alphaAcid: "7.8%-8.4%",
+    betaAcid: "N/A",
     link: ""
   }, {
-    name: "",
-    origin: "",
-    information: "",
-    purpose: "",
-    flavorProfile: "",
-    alphaAcid: "",
-    betaAcid: "",
+    name: "Marynka",
+    origin: "Poland",
+    information: "Marynka hops are another widely produced Polish hop from the region Lublin. It is moderate in most things: yield, growth, stability, but her flavor profile is way above average. Despite being used primarily for bittering, Marynka features a forward, earthy and herbal flavors and aromas. It is the offspring of Brewer’s Gold and was official registered in 1988.",
+    purpose: "Bittering & Aroma",
+    flavorProfile: "Earthy and herbal flavors and aromas",
+    alphaAcid: "9%-12%",
+    betaAcid: "10.2%-13%",
     link: ""
   }, {
-    name: "",
-    origin: "",
-    information: "",
-    purpose: "",
-    flavorProfile: "",
-    alphaAcid: "",
-    betaAcid: "",
+    name: "Melba",
+    origin: "Australlia",
+    information: "Bred by Ellerslie Hop Estate, Melba or “The Dame of Hops” as it is affectionately known, is a dual-use variety with high oil content and similarities to Galaxy. When used as an early addition, it is said to impart a clean and somewhat spicy bitterness. When used as an flavor or aroma addition though, properties of passionfruit, grapefruit and citrus come to the fore.",
+    purpose: "Bittering & Aroma",
+    flavorProfile: "Clean spicy bitterness, aromas of passionfruit, grapefruit and citrus.",
+    alphaAcid: "7%-10%",
+    betaAcid: "2.5%-5%",
     link: ""
   }, {
-    name: "",
-    origin: "",
-    information: "",
-    purpose: "",
-    flavorProfile: "",
-    alphaAcid: "",
-    betaAcid: "",
+    name: "Merkur",
+    origin: "Germany",
+    information: "Merkur or Hallertau Merkur as it is sometimes known, is a high alpha bittering hop developed at the Hull Hops Research Institute in Germany. It was released in 2000. It’s not all about bittering potential though; Merkur boasts high myrcene and humulene oil content giving it an earthy grounding and citrus zing. It works especially well in the early to mid-stages of brewing. Merkur is a descendant of Magnum.",
+    purpose: "Bittering & Aroma",
+    flavorProfile: "Earthy, spicy bitterness, citrus zing",
+    alphaAcid: "12%-16.2%",
+    betaAcid: "5%-7.3%",
+    link: ""
+  }, {
+    name: "Mosaic",
+    origin: "USA",
+    information: "Released in 2012 by the Hop Breeding Company, LLC, Mosaic hops feature complex but clean flavor characteristics and are known for their triple-use profile encompassing bittering, flavor and aroma. They have high alpha acids but low cohumulone which makes them pleasantly hoppy, carrying flavors of mango, pine, citrus and herbs and aromas of tropical and stone fruit. Mosaic is the first daughter of Simcoe and Nugget as has been humorously referred to by some as “Citra on steroids”.",
+    purpose: "Bittering & Aroma",
+    flavorProfile: "Flavors of mango, pine, citrus and herbs and aromas of tropical and stone fruit.",
+    alphaAcid: "11.5%-13.5%",
+    betaAcid: "3.2%-3.9%",
+    link: ""
+  }, {
+    name: "MultiHead",
+    origin: "USA",
+    information: "MultiHead is a neomexicanus breed native to New Mexico and is so named because of its tendency to produce dual cones. It is a unique hop in the industry and in brewing features a heady, floral aroma and some citrus elements.",
+    purpose: "Bittering & Aroma",
+    flavorProfile: "Heady, floral aroma, some sweet fruit and citrus",
+    alphaAcid: "3.5%-5.5%",
+    betaAcid: "5.5%-8%",
+    link: ""
+  }, {
+    name: "Nelson Sauvin",
+    origin: "New Zeland",
+    information: "Nelson Sauvin’s name is derived from the Sauvignon Blanc wine grape to which many agree has similar flavor and aroma characteristics. Developed in New Zealand and released in 2000, it is considered too wild for many major brewers. Despite this, Nelson Sauvin has found significant use among craft breweries and home brewers for its eccentric characteristics.",
+    purpose: "Bittering & Aroma",
+    flavorProfile: "Smooth bittering, rich, fruity, gooseberry and white-wine flavors",
+    alphaAcid: "12%-13%",
+    betaAcid: "6%-8%",
+    link: ""
+  }, {
+    name: "Neo1",
+    origin: "USA",
+    information: "Neo1 is another neomexicanus breed, this time with a potent lemon-citrus character. Native to New Mexico, it is a true sun-worshipping hop, with quite lively growth when exposed to maximum sunlight. It is also said that Neo1 is naturally pest resistant due to its abundance of limonene and linalool. Noe1 is a sister to Amallia.",
+    purpose: "Bittering & Aroma",
+    flavorProfile: "Significant lemon-citrus character",
+    alphaAcid: "7%-9%",
+    betaAcid: "3%-3.3%",
+    link: ""
+  }, {
+    name: "Northdown",
+    origin: "UK",
+    information: "Northdown was developed at Wye College in England in the early 1970’s and was initially bred primarily for its resistance to downy mildew. It is the offspring of Northern Brewer and Challenger and an aunt to Target.",
+    purpose: "Bittering & Aroma",
+    flavorProfile: "Fresh, flowery, piney, berry and spice",
+    alphaAcid: "7%-10%",
+    betaAcid: "4%-5.5%",
+    link: ""
+  }, {
+    name: "Nugget",
+    origin: "USA",
+    information: "Nugget’s super alpha acid content, low beta and low cohumulone percentages give it an excellent bittering kick popular in IPAs, Imperials and other super hoppy brews. It’s high myrcene content also results in a green, herbal aroma.",
+    purpose: "Bittering & Aroma",
+    flavorProfile: "Solid bittering, light flavor, herbal aroma",
+    alphaAcid: "9.5%-14%",
+    betaAcid: "4.2%-5.8%",
+    link: ""
+  }, {
+    name: "Opal",
+    origin: "Germany",
+    information: "Developed by the Hull Hops Research Institute in Germany, Opal hops feature a clean aroma and flavor profile of spice and citrus with a hint of sweetness. It was released to the brewing world in 2004 and is considered useful for both aroma and bittering.",
+    purpose: "Bittering & Aroma",
+    flavorProfile: "Flavors of spice and citrus, slight sweetness",
+    alphaAcid: "13%-14%",
+    betaAcid: "3.5%-5.5%",
+    link: ""
+  }, {
+    name: "Orbit",
+    origin: "New Zeland",
+    information: "Orbit is a dynamic hop blend consisting of a constantly evolving selection of hops from New Zealand’s ‘Hops with a Difference’ breeding program. The selected hops in Orbit change year to year based on an available crops quality and uniqueness. As such, no specific tasting notes are possible but usage in the past has resulted in flavors and aromas of tropical fruit.",
+    purpose: "Bittering & Aroma",
+    flavorProfile: "Flavors and aromas of tropical fruit.",
+    alphaAcid: "4%-6%",
+    betaAcid: "4%-6%",
+    link: ""
+  }, {
+    name: "Phoenix",
+    origin: "UK",
+    information: "Despite its low yield, Phoenix has a lovely aroma and flavor and seems destined to become a favorite among craft brewers. It was first grown at Wye College in England in an effort to find a more disease resistant replacement for Challenger hops. Phoenix was selected as a seedling of Yeoman.",
+    purpose: "Bittering & Aroma",
+    flavorProfile: "Aromas of spice, pine, chocolate and molasses",
+    alphaAcid: "8.5%-13.5%",
+    betaAcid: "3.3%-5.5%",
+    link: ""
+  }, {
+    name: "Pilgrim",
+    origin: "UK",
+    information: "Pilgrim’s siblings, First Gold and Herald are both dwarf hop varieties, Pilgrim however is not. A cultivar of Wye College, England, Pilgram displays first-rate bittering qualities in addition to favorable aroma and flavor characteristics. It was released in the year 2000.",
+    purpose: "Bittering & Aroma",
+    flavorProfile: "Rounded bitterness, grassy herbs, pears, and spice",
+    alphaAcid: "9%-13%",
+    betaAcid: "4.2%-5.2%",
+    link: ""
+  }, {
+    name: "Pioneer",
+    origin: "UK",
+    information: "Pioneer has a classic English aroma and mild-tempered bittering despite its very high cohumulone levels. It is considered more than suitable for use at any point in the brewing process.",
+    purpose: "Bittering & Aroma",
+    flavorProfile: "Clean bittering, aromas of citrus, lemon, grapefruit, herbs and cedar",
+    alphaAcid: "8%-10%",
+    betaAcid: "3.5%-4%",
+    link: ""
+  }, {
+    name: "Polaris",
+    origin: "Germany",
+    information: "New to the scene, the Hop Research Institute in Hüll, Germany released Polaris in 2012. Commanding incredibly high alpha acids, Polaris features elements of spice, pine and intense mint alongside a strong but pleasant, fruity and floral aroma.",
+    purpose: "Bittering & Aroma",
+    flavorProfile: "Floral and fruity aromas, spice, pine and mint",
+    alphaAcid: "18%-23%",
+    betaAcid: "4.5%-6%",
+    link: ""
+  }, {
+    name: "Simcoe",
+    origin: "USA",
+    information: "Released to the world in 2000 by Yakima Chief Ranches, American variety Simcoe has become wildly popular with craft brewers. With a high alpha percentage and low cohumulone, it makes a very nice foundational bittering hop. It is also noted though for its favorable aroma qualities. It has a pleasantly fruity, yet earthy herbal and piney aroma.",
+    purpose: "Bittering & Aroma",
+    flavorProfile: "Bright citrus flavors with earthy undertones, aromas of grapefruit, pine and herbs",
+    alphaAcid: "12%-14%",
+    betaAcid: "4%-5%",
+    link: ""
+  }, {
+    name: "Smaragd",
+    origin: "Germany",
+    information: "Smaragd is another interesting hop to come out of the Hop Research Institute in Hüll, Germany. Bred with the purpose of creating a more disease resistant alternative to Hallertau Mittelfrüh, it was released for large-scale production in 2007.",
+    purpose: "Bittering & Aroma",
+    flavorProfile: "Predominantly fruity aroma with bold floral notes, flavors of earth and spice",
+    alphaAcid: "4%-6%",
+    betaAcid: "3.5%-5.5%",
     link: ""
   },
+  {
+    name: "Southern Cross",
+    origin: "New Zeland",
+    information: "Southern Cross was created by New Zealand’s HortResearch breeding program as a cross between Smooth Cone and the result of a Californian and English Fuggle. It was released in 1994.",
+    purpose: "Bittering & Aroma",
+    flavorProfile: "Soft bitterness, lemon zest and pine needles",
+    alphaAcid: "13%-14%",
+    betaAcid: "6%-7%",
+    link: ""
+  }, {
+    name: "Southern Promise",
+    origin: "Slovenia",
+    information: "Southern Promise was bred specifically for the South African region. Created from Southern Brewer and a wild Slovenian male, it was developed in an effort to produce a variety that would grow well in areas with limited sunlight.",
+    purpose: "Bittering & Aroma",
+    flavorProfile: "Smooth bitterness, woody, earthy",
+    alphaAcid: "9.5%-11.5%",
+    betaAcid: "3.6%-5.4%",
+    link: ""
+  }, {
+    name: "Sterling",
+    origin: "USA",
+    information: "Sterling was successfully bred to overcome Saaz’s susceptibility to mildew. Developed over 8 years in Corvallis, Oregon it was released in 1998.",
+    purpose: "Bittering & Aroma",
+    flavorProfile: "Spicy, citrus aroma, herbal notes",
+    alphaAcid: "4.5%-9%",
+    betaAcid: "4%-6%",
+    link: ""
+  }, {
+    name: "Sticklebract",
+    origin: "New Zeland",
+    information: "Sticklebract is a dual-use New Zealand variety and another variety bred to stem the issues from Black Root Rot that were present in the country during the mid 20th century. It was selected as a seedling in the 1970’s from open pollinated First Choice.",
+    purpose: "Bittering & Aroma",
+    flavorProfile: "Aromas of pine and citrus",
+    alphaAcid: "13%-14.2%",
+    betaAcid: "7.5%-8.5%",
+    link: ""
+  }, {
+    name: "Vic Secret",
+    origin: "Australlia",
+    information: "Vic Secret had her first commercial harvest in 2013. Developed in 2000 in Victoria, Australia alongside sister variety Topaz, Vic Secret features elements of tropical fruit, herbs and pine with clean notes of pineapple and passionfruit.",
+    purpose: "Bittering & Aroma",
+    flavorProfile: "Tropical fruit, pine, herbs",
+    alphaAcid: "14%-17%",
+    betaAcid: "6.1%-7.8%",
+    link: ""
+  }, {
+    name: "Vital",
+    origin: "Czechia",
+    information: "Vital is a new hop variety out of the Zatec breeding program in Czechia. Both high alpha and beta acid content gives it a spicy hop aroma. To date, Vital has been used successfully in single-hopped pale ales though it was originally bred for pharmaceutical and biomedical purposes with its increased levels of xanthohumol – a potent antioxidant.",
+    purpose: "Bittering & Aroma",
+    flavorProfile: "Spicy hop aroma",
+    alphaAcid: "14%-17%",
+    betaAcid: "8%-11%",
+    link: ""
+  }, {
+    name: "Waimea",
+    origin: "New Zeland",
+    information: "Waimea is a new New Zealand dual-use variety originally bred for high alpha and bittering qualities. Released in 2012, it’s heritage stems from Californian Late Cluster, Fuggle and Saaz. Despite its incredibly high alphas, brewing characteristics of Waimea include some decidedly favorable flavor and aromas of fresh-crushed citrus and pine.",
+    purpose: "Bittering & Aroma",
+    flavorProfile: "Citrus and pine",
+    alphaAcid: "16%-19%",
+    betaAcid: "7%-9%",
+    link: ""
+  }, {
+    name: "Wakatu",
+    origin: "New Zeland",
+    information: "Wakatu, or Hallertau Aroma as it is sometimes know, is a New Zealand triploid hop with a lot going for it. 2/3 Hallertauer Mittelfrüher and 1/3 New Zealand male, it was released in 1988 from the New Zealand Institute for Plant and Food Research’s hop breeding program.",
+    purpose: "Bittering & Aroma",
+    flavorProfile: "Floral, lime aromas",
+    alphaAcid: "6.5%-8.5%",
+    betaAcid: "8.5%",
+    link: ""
+  }
 ]
