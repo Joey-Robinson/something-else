@@ -9,9 +9,11 @@
 @import './components/header';
 @import './components/modals';
 // Layouts
+@import './layouts/aboutcontainer';
 @import './layouts/container';
 @import './layouts/hero';
 @import './layouts/middle';
 @import './layouts/primary';
 @import './layouts/team';
 // Pages
+@import './pages/about';

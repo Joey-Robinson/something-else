@@ -2,9 +2,7 @@
   @include respond(phone) {
     grid-row: 4;
     grid-column: 1;
-    background: linear-gradient(-45deg, #3C9024, #6CA82A, #90B424, #C0C012);
-    background-size: 400% 400%;
-    animation: Gradient 10s ease infinite;
+    @include animatedBackground;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr auto 1fr auto 1fr auto;

@@ -9,9 +9,14 @@ import {
   cfoModal
 } from './components/modal'
 
-ceoModal()
-ctoModal()
-cfoModal()
+
+const pageType = document.querySelector('.PageType')
+if (pageType) {
+  ceoModal()
+  ctoModal()
+  cfoModal()
+
+}
 
 sliderOpen()
 sliderClose()

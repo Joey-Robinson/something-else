@@ -1,0 +1,20 @@
+.about {
+  font-family: 'Rubik', sans-serif;
+  grid-column: 1;
+  grid-row: 1;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, 1fr);
+  height: 100vh;
+  @include animatedBackground;
+
+  @include respond(phone) {
+    &__collage {
+      display: grid;
+    }
+
+    &__us {
+      @include animatedBackground;
+    }
+  }
+}
