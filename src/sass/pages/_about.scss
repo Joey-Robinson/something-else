@@ -3,8 +3,9 @@
   grid-row: 1;
   display: grid;
   color: white;
-  @include shadows;
-  @include animatedBackground;
+  // @include shadows;
+  text-shadow: 2px 2px black;
+  background: linear-gradient(61deg, #3C9024 50%, #6CA82A 50%);
 
   @include respond(phone) {
     grid-template-columns: 1fr;
@@ -23,8 +24,13 @@
     }
 
     p {
-      font-size: 2rem;
-      padding: 0 3rem;
+      padding: 0rem 2rem;
+      margin: 0 0 5px 0;
+      font-size: 1.8rem;
+      font-family: 'Ubuntu';
+      hyphens: auto;
+      text-shadow: 1px 1px 2px black;
+      font-weight: 500;
     }
 
     &--top {
@@ -35,15 +41,78 @@
     &--middle {
       grid-column: 1;
       grid-row: 2;
+      margin-bottom: 3rem;
     }
 
     &--bottom {
       grid-column: 1;
       grid-row: 3;
+      margin-bottom: 3rem;
+    }
+  }
+}
+
+.about {
+  &__location {
+    background: linear-gradient(61deg, #6CA82A 50%, #3C9024 50%);
+    display: grid;
+    color: white;
+
+    @include respond(phone) {
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: auto repeat(3, 1fr);
+      @include shadows;
 
       p {
-        margin: 5px 0 1rem 0;
+        padding: 0rem 2rem;
+        margin: 5rem 0 1rem 0;
+        font-size: 1.8rem;
+        font-family: 'Ubuntu';
+        hyphens: auto;
+        text-shadow: 1px 1px 2px black;
+        font-weight: 500;
+      }
+
+      h1 {
+        text-align: center;
+        justify-self: center;
+        grid-column: 1 / -1;
+        grid-row: 1;
+        padding: 1rem 8px 0 8px;
+        font-size: 2.3rem;
+      }
+
+      & i {
+        font-size: 3em;
+        padding: 5px 1rem 0 1rem;
+        margin: 0 0 1rem 0;
+
+        span {
+          padding: 0 1rem;
+        }
+      }
+
+      &--top {
+        grid-column: 1 / -1;
+        grid-row: 2;
+        justify-self: center;
+        align-self: start;
+      }
+
+      &--topt {
+        grid-column: 1 / -1;
+        grid-row: 2;
+        align-self: center;
+        justify-self: center;
       }
     }
+  }
+
+  &__us {
+    background: linear-gradient(61deg, #3C9024 50%, #6CA82A 50%);
+  }
+
+  &__random {
+    background: linear-gradient(61deg, #6CA82A 50%, #3C9024 50%);
   }
 }
