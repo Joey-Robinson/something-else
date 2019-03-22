@@ -1,0 +1,12 @@
+.hops__primary {
+  grid-column: 1;
+  grid-row: 1;
+  background: linear-gradient(61deg, #3C9024 50%, #6CA82A 50%);
+  // background: linear-gradient(61deg, #6CA82A 50%, #3C9024 50%);
+  color: white;
+
+  @include respond(phone) {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+  }
+}
